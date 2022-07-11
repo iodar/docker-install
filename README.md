@@ -32,7 +32,7 @@ sudo apt-get install curl
 Download the script from this repo and run the script afterwards.
 
 ```bash
-curl -L "https://raw.githubusercontent.com/iodar/docker-install/master/install-docker-deb.sh" > install-docker-deb.sh 
+curl -L "https://raw.githubusercontent.com/iodar/docker-install/master/install-docker-deb.sh" -o install-docker-deb.sh 
 chmod 777 install-docker-deb.sh
 sudo ./install-docker-deb.sh
 ```
